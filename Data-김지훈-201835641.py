@@ -124,6 +124,7 @@ def getCovidstatsService(statusDt, endStatusDt):
     # 수집한 데이터를 반환
     return (jsonResult, result, dataEnd, totalCount)
 
+# [CODE 0]
 def main():
     jsonResult = []
     result = []
