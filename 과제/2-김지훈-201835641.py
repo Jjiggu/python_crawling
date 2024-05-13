@@ -67,7 +67,7 @@ def main():
 
     # DataFrame으로 전환 후 columns값 지정
     kyobo_tbl = pd.DataFrame(result, columns=('제목', '저자', '출판사', '출판일자'))
-    # csv 파일로 저장
+    # csv 파일로 저장(인코딩 확인)
     kyobo_tbl.to_csv('/Users/hoon/Desktop/빅데이터분석개론실습/실습/docs/kyobo/2-김지훈-201835641.csv', encoding='cp949', mode='w',
                      index=True)
 
